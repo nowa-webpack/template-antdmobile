@@ -1,6 +1,6 @@
-# antd-mobile with webpack
+# antd-mobile with nowa
 
-basic webpack proj demo
+basic antd-mobile proj demo with nowa
 
 ### Install & Start
 

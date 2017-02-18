@@ -1,0 +1,6 @@
+{
+  "options": {
+    "entry": "index.jsx",
+    "port": "8000"
+  }
+}

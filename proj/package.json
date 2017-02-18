@@ -1,13 +1,20 @@
 {
-  "name": "demo",
-  "version": "1.0.0",
+  "name": "<%- name %>",
+  "version": "<%- version %>",
+  "author": "<%- author %>",
+  "description": "<%- description %>",
+  "homepage": "<%- homepage %>",
+  "repository": {
+    "type": "git",
+    "url": "<%- repository %>"
+  },
   "scripts": {
-    "start": "nowa server -p 8000 -e index.jsx",
-    "build": "nowa build -e index.jsx"
+    "start": "nowa server",
+    "build": "nowa build"
   },
   "license": "MIT",
   "dependencies": {
-    "antd-mobile": "~0.9.10",
+    "antd-mobile": "^1.0.0",
     "antd-mobile-demo-data": "^0.1.3",
     "moment": "^2.14.1",
     "rc-form": "^0.17.2",
@@ -15,6 +22,7 @@
     "react-dom": "^15.3.2"
   },
   "devDependencies": {
-    "babel-plugin-import": "~1.0.1"
+    "babel-plugin-import": "~1.0.1",
+    "svg-sprite-loader": "^0.3.0"
   }
 }
