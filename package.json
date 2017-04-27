@@ -1,0 +1,20 @@
+{
+  "name": "nowa-template-antdmobile",
+  "version": "1.0.2",
+  "description": "h5 project template using antdmobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowa-webpack/template-antdmobile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nowa-webpack/template-antdmobile/issues"
+  },
+  "image": "https://zos.alipayobjects.com/rmsportal/wIjMDnsrDoPPcIV.png",
+  "homepage": "https://github.com/nowa-webpack/template-antdmobile#readme"
+}

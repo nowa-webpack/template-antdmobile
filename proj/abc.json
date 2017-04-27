@@ -1,5 +1,9 @@
 {
+  "name": "<%- name %>",
   "options": {
+    "type": "antdmobile",
+    "template": "<%- template %>",
+    "npm": "<%- npm %>",
     "entry": "index.jsx",
     "port": "8000"
   }
