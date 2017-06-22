@@ -7,7 +7,7 @@ module.exports = (config) => {
   config.module.loaders.forEach((n) => {
     if (/\.jsx/.test(n.test)) {
       n.query.plugins.push(['import', [{ style: 'css', libraryName: 'antd-mobile' }]])
-    } else if (/\.css/.test(n.test)) {
+    } else if (/css|png/.test(n.test)) {
       delete n.include;
     }
   });
