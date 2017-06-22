@@ -1,6 +1,6 @@
 {
   "name": "nowa-template-antdmobile",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "h5 project template using antdmobile",
   "main": "index.js",
   "scripts": {
